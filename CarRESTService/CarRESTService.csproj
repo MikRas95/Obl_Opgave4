@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>C:\Users\mikra\Dropbox\Data\3. Sem\Obl_opgave1\Opgave4\CarRESTService\CarRESTService.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Obl_Opgave1">
+      <HintPath>..\..\Opgave1\Obl_Opgave1\bin\Debug\net5.0\Obl_Opgave1.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32106.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarRESTService", "CarRESTService.csproj", "{00E4943B-C54E-4D9C-B427-C6EEA4411A34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarRESTServiceTests", "..\CarRESTServiceTests\CarRESTServiceTests.csproj", "{BBF3048A-6E2C-46BF-83CC-0DD70E123882}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{00E4943B-C54E-4D9C-B427-C6EEA4411A34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00E4943B-C54E-4D9C-B427-C6EEA4411A34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00E4943B-C54E-4D9C-B427-C6EEA4411A34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00E4943B-C54E-4D9C-B427-C6EEA4411A34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBF3048A-6E2C-46BF-83CC-0DD70E123882}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBF3048A-6E2C-46BF-83CC-0DD70E123882}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBF3048A-6E2C-46BF-83CC-0DD70E123882}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBF3048A-6E2C-46BF-83CC-0DD70E123882}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6E34FE38-8AC6-472E-9B62-52419D3BD1E0}
+	EndGlobalSection
+EndGlobal

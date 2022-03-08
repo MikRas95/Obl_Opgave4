@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CarRESTService</name>
+    </assembly>
+    <members>
+        <member name="M:CarRESTService.Controllers.CarController.Get(System.Int32)">
+            <summary>
+            Finds all cars - can filter by maximumPrice
+            </summary>
+            <param name="maximumPrice"></param>
+            <returns></returns>
+            <response code="200">Everything was OK</response>
+            <response code="404">List is not found</response>
+        </member>
+        <member name="M:CarRESTService.Controllers.CarController.GetCarsById(System.Int32)">
+            <summary>
+            Finds a car by an Id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+            <response code="200">Everything was OK</response>
+            <response code="404">Error: List is not found</response>
+        </member>
+        <member name="M:CarRESTService.Controllers.CarController.Post(Obl_Opgave1.Car)">
+            <summary>
+            Creates a new car object
+            </summary>
+            <param name="newCar"></param>
+            <returns></returns>
+            <response code="201">Item was created</response>
+            <response code="400">Error 400: Are you missing a parameter?</response>
+        </member>
+        <member name="M:CarRESTService.Controllers.CarController.Delete(System.Int32)">
+            <summary>
+            Deletes an item found by id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+            <response code="200">Everything was OK</response>
+            <response code="404">Error: List is not found</response>
+        </member>
+        <member name="M:CarRESTService.Managers.CarManager.GetAllCars(System.Int32)">
+            <summary>
+            Returns list of cars if maximumPrice is 0, otherwise it returns a filtered list of cars
+            </summary>
+            <param name="maximumPrice"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CarRESTService.Managers.CarManager.GetCarsById(System.Int32)">
+            <summary>
+            Gets a single car from id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CarRESTService.Managers.CarManager.AddCar(Obl_Opgave1.Car)">
+            <summary>
+            Creates a new car object and adds it to list of cars
+            </summary>
+            <param name="newCar"></param>
+            <returns></returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:CarRESTService.Managers.CarManager.DeleteCar(System.Int32)" -->
+    </members>
+</doc>
