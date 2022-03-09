@@ -42,8 +42,11 @@ namespace CarRESTService
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "CarRESTService v1"));
-            }
 
+            }
+            app.UseSwagger();
+            app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "CarRESTService v1"));
+            
             app.UseHttpsRedirection();
 
             app.UseRouting();
